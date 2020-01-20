@@ -1,4 +1,11 @@
-class Duck:
+from abc import ABC, abstractmethod
+
+class Duck(ABC):
+    
+    @abstractmethod
+    def display(self):
+        ...
+    
     def quack(self):
         print('I\'m a dock, quack!!')
 

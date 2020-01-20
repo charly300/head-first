@@ -1,6 +1,10 @@
-from Duck import Duck
+from MallardDuck import MallardDuck
+from RedheadDuck import RedheadDuck
 
-duck = Duck()
+mallard = MallardDuck()
+mallard.display()
+mallard.swim()
 
-duck.quack()
-duck.swim()
+red = RedheadDuck()
+red.display()
+red.swim()
