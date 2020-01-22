@@ -11,3 +11,6 @@ class Duck(ABC):
 
     def swim(self):
         print('I\'m swimming!!')
+
+    def fly(self):
+        print('I\'m flying')

@@ -3,8 +3,8 @@ from RedheadDuck import RedheadDuck
 
 mallard = MallardDuck()
 mallard.display()
-mallard.swim()
+mallard.fly()
 
 red = RedheadDuck()
 red.display()
-red.swim()
+red.fly()
