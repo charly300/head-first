@@ -1,7 +1,7 @@
 from FlyBehavior import FlyBehavior
 
 
-class FlyNoWy(FlyBehavior):
+class FlyNoWay(FlyBehavior):
 
     def fly(self):
-        print('No fly')
+        print('I can\'t fly')

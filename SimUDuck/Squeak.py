@@ -1,7 +1,7 @@
 from QuackBehavior import QuackBehavior
 
 
-class MuteQuack(QuackBehavior):
+class Squeak(QuackBehavior):
 
     def quack(self):
-        print('<< Silence >>')
+        print('Squeak!')
