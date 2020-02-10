@@ -2,16 +2,22 @@ from abc import ABC, abstractmethod
 
 
 class Duck(ABC):
-    
+
+    def __init__(self):
+        self.flyBehavior = None
+        self.quackBehavior = None
+
     @abstractmethod
     def display(self):
         ...
-    
-    def quack(self):
-        print('I\'m a dock, quack!!')
+
+    def perform_quack(self):
+        self.quackBehavior.quack()
+
+    def perform_fly(self):
+        self.flyBehavior.fly()
 
     def swim(self):
         print('I\'m swimming!!')
 
-    def fly(self):
-        print('I\'m flying')
+
